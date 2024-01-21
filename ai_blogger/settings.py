@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-un80a%x@3kpu)!p^jb@evibz68$3yrw!ww-r#yd*brg^v(jkt6'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,22 +82,15 @@ WSGI_APPLICATION = 'ai_blogger.wsgi.application'
 #     }
 # }
 
-# psql "postgres://default:ZKD1wa6Ounde@ep-spring-rain-29812732.us-west-2.postgres.vercel-storage.com:5432/verceldb"
-# POSTGRES_URL="postgres://default:ZKD1wa6Ounde@ep-spring-rain-29812732-pooler.us-west-2.postgres.vercel-storage.com:5432/verceldb"
-# POSTGRES_PRISMA_URL="postgres://default:ZKD1wa6Ounde@ep-spring-rain-29812732-pooler.us-west-2.postgres.vercel-storage.com:5432/verceldb?pgbouncer=true&connect_timeout=15"
-# POSTGRES_URL_NON_POOLING="postgres://default:ZKD1wa6Ounde@ep-spring-rain-29812732.us-west-2.postgres.vercel-storage.com:5432/verceldb"
-# POSTGRES_USER="default"
-# POSTGRES_HOST="ep-spring-rain-29812732-pooler.us-west-2.postgres.vercel-storage.com"
-# POSTGRES_PASSWORD="ZKD1wa6Ounde"
-# POSTGRES_DATABASE="verceldb"
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'verceldb',
+        'NAME': '',             # name of the database
         'USER': 'default',
-        'PASSWORD': 'ZKD1wa6Ounde',
-        'HOST': 'ep-spring-rain-29812732.us-west-2.postgres.vercel-storage.com',
+        'PASSWORD': '',         # password of the database
+        'HOST': '',             # host of the database
         'PORT': '5432',
     }
 }
