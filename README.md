@@ -54,16 +54,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]()
+<img src="design.jpg" width="600" height="500">
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project goal is to show the use of diffrent AI services and cloud providers to make a proof of concept of web app that uses the power of AI as a core feature. and combine the cloud infra to provide the high avalibility for the users.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Main functionalities:
+* Retreving a youtube video link and downloading as audio file to the local machine.
+* Extracting the text from audio to generate a Text.
+* Using GPT-3.5-TURBO as model-as-a-service to create a blog post based on the text generated.
+* Displaying all the stored blog posts by the users and providing a details page.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
+Of course, we have the usual features as of singup and singin of users and all of this is stored in the postgreSQL database hosted on vercel cloud.
 
 Use the `BLANK_README.md` to get started.
 
